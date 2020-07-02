@@ -1,0 +1,29 @@
+.galeri {
+	margin-top: 130px;
+	margin-left: 35px;
+	margin-right: 35px;
+	text-align: center;
+}
+
+.galeri-judul {
+	width: 300px;
+	margin: 45px auto;
+}
+
+.galeri-galeri {
+	margin-left: 75px;
+}
+
+.galeri-img {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 25px;
+}
+
+.img1-10 {
+	border-radius: 10px;
+	border: 2px solid #aaa;
+	filter: drop-shadow(0px 0px 0px);
+	width: 200px;
+	height: 180px;
+}

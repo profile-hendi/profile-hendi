@@ -1,0 +1,92 @@
+.main-profile {
+	width: 750px;
+	float: left;
+}
+
+.main-video {
+	width: 350px;
+	height: 250px;
+	float: right;
+	margin-left: 40px;
+}
+
+video {
+	width: 320px;
+	height: 200px;
+}
+
+.foto {
+	width: 80px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+	background-image: url(image/hendi.jpg);
+	background-size: cover;
+	border-radius: 3px;
+}
+
+p {
+	line-height: 23px;
+	margin-top: 0px;
+}
+
+.tabel {
+	box-sizing: border-box;
+	width: 750px;
+	margin-top: 30px;
+}
+
+
+.tabel-pendidikan {
+
+}
+
+table tr th {
+	padding: 8px;
+	background-color: silver;
+	font-size: 14px;
+}
+
+table tr td {
+	padding: 10px 13px;
+	font-size: 14px;
+
+}
+
+table {
+	border-spacing: 0px;
+}
+
+table tr .td-no {
+	background-color: silver;
+}
+
+
+
+
+
+
+/*ukuran tablet*/
+
+
+
+
+/*ukuran smartphone*/
+@media(max-width: 670px) {
+	.main-profile {
+		width: 80%;
+	}
+
+	.main-video {
+		margin-top: 10px;
+		margin-right: 25px;
+	}
+
+	.tabel {
+		width: 30%;
+	}
+
+	table, tr, td, th, {
+		width: 30%;
+	}
+}
